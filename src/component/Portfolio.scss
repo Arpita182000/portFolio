@@ -6,6 +6,11 @@
   justify-content: flex-start;
   align-items: center;
   width: 100%;
+}
+
+.section {
+  box-sizing: border-box;
+  display: flex;
   flex-wrap: wrap;
 }
 
