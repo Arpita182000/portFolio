@@ -30,12 +30,12 @@ function Sidebar() {
         </nav>
         <ul>
         <li>
-          <a href="https://www.linkedin.com/">
+          <a href="https://www.linkedin.com/in/arpita-sarkar-9132351b3/" target="_blank">
             <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e"/>
           </a>
         </li>
         <li>
-          <a href="https://github.com/Arpita182000">
+          <a href="https://github.com/Arpita182000" target="_blank">
             <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
           </a>
         </li>
