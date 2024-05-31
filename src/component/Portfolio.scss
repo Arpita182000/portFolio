@@ -2,17 +2,13 @@
 
 .container {
   display: flex;
+  margin-top: 3%;
   justify-content: flex-start;
   align-items: center;
   width: 100%;
-}
-
-.section {
- 
-  box-sizing: border-box;
-  display: flex;
   flex-wrap: wrap;
 }
+
 
 .box { 
   box-sizing: border-box;
@@ -21,3 +17,7 @@
 h1{
   color: #ffd700;
 }
+img{
+  border-radius: 2%;
+}
+
