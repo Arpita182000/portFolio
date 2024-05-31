@@ -35,7 +35,7 @@ function Sidebar() {
           </a>
         </li>
         <li>
-          <a href="https://github.com/">
+          <a href="https://github.com/Arpita182000">
             <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
           </a>
         </li>
