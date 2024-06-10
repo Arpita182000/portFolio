@@ -10,7 +10,7 @@ import f from "../Assets/img/Screenshot (41).png";
 function Portfolio() {
   return (
     <>
-      <div class="container">
+      <div class="containerporfolio">
         
           <div class="box">
             <h1>NetFlix</h1>
