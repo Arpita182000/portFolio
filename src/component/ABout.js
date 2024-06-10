@@ -10,7 +10,8 @@ function ABout() {
     return (
         <>
         <div className='container about-page'>
-            <div className='text-zone'>
+          <div className='container-col'> 
+           <div className='text-zone'>
             <h1>
                 <Animate strArray={['A','b','o','u','t',' ','M','e']} letterClass={letterClass} idx={15}/>
             </h1>
@@ -40,7 +41,7 @@ function ABout() {
                         <FontAwesomeIcon icon={faGitAlt} color='#EC4E28'/>
                     </div>
                 </div>
-            </div>
+            </div></div>
         </div>
         <Loader type="pacman"/>
     </>

@@ -33,8 +33,12 @@
     transform-style: preserve-3d;
     animation: fadeIn 1s forwards;
     animation-delay: 1s;
+    // flex-direction: column !important;
+    
 }
+
 .about-page{
+    
     .text-zone{
         position: absolute;
         left: 10%;
@@ -239,3 +243,34 @@
 }
 
 
+@media screen and (max-width: 600px) {
+    img{
+      border-radius: 2%;
+      width: 120px;
+    }
+    .container{
+        width: 100%;
+        will-change: contents;
+        height: 90%;
+        min-height: 656px;
+        position: absolute;
+        opacity: 0;
+        margin-left: 15%;
+        z-index: 1;
+        transform-style: preserve-3d;
+        animation: fadeIn 1s forwards;
+        animation-delay: 1s;
+        flex-direction: column !important;
+        
+    }
+  }
+  .container-col{
+    display: flex;
+
+  }
+  @media screen and (max-width: 600px) {
+    .container-col{
+        display: flex !important;
+        flex-direction: column !important;
+      }
+  }

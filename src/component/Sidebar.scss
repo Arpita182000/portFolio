@@ -4,7 +4,12 @@ nav a .active{
         color: #ffd700;
     }
 }
-
+*{
+  list-style: none;
+}
+.logo-1{
+  display: inline-block;
+}
 .nav-bar {
   background: #181818;
   width: 120px;
@@ -86,6 +91,20 @@ nav a .active{
         content: "CONTACT";
       }
     }
+    &:nth-child(5) {
+      &::after {
+        content: "LinkedIn";
+      }
+    }
+    &:nth-child(6) {
+      &::after {
+        content: "Github.com";
+      }
+    }
+    // &:nth-child(6) {
+    
+    // padding-left: 2%;      
+    // }
     
   }
  
@@ -116,3 +135,18 @@ nav a .active{
   }
 }
  ;
+ @media screen and (max-width: 600px) {
+  .nav-bar {
+    background: #181818;
+    width: 80px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    min-height: 500px;
+}
+.profilecss{
+  padding-top: 0%;
+}
+ }
+ 
